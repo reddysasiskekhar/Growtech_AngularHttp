@@ -1,4 +1,4 @@
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>Userid</th>
@@ -15,4 +15,33 @@
       <td>{{item.body}}</td>
     </tr>
   </tbody>
+</table> -->
+
+<!--array of objects with "ngFor"-->
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Views</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let item of database'>
+    <td>{{item.id}}</td>
+    <td>{{item.title}}</td>
+    <td>{{item.views}}</td>
+    </tr>
+  </tbody>
 </table>
+
+<br>
+<hr>
+<button (click)="btnCreate()">Create</button> |
+
+<button (click)="btnUpdate()">Update</button> |
+
+<button (click)="btnPatch()">Patch</button> |
+
+<button (click)="btnDelete()">Delete</button>

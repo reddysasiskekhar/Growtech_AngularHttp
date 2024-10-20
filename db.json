@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "title": "Political related News",
+      "views": 30,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "movie news",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "sasi growtech title",
+      "views": 300
+    },
+    {
+      "id": "4",
+      "title": "Http base angular title",
+      "views": 400
+    },
+    {
+      "id": "95a5",
+      "title": "Tennis Relaed News",
+      "views": 100
+    },
+    {
+      "id": "536a",
+      "title": "baseball Relaed News",
+      "views": 30
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
